@@ -1,0 +1,296 @@
+[
+  {
+    "ContainingType": "HealthCareApp.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "HealthCareApp.DTOs.Auth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.AuthController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "api/auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "HealthCareApp.DTOs.Auth.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.CampaignController",
+    "Method": "GetAllCampaigns",
+    "RelativePath": "api/campaigns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.CampaignController",
+    "Method": "CreateCampaign",
+    "RelativePath": "api/campaigns",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "campaignDto",
+        "Type": "HealthCareApp.DTOs.Campaign.CreateCampaignDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.DashboardController",
+    "Method": "GetDashboardMetrics",
+    "RelativePath": "api/dashboard/metrics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.DashboardController",
+    "Method": "GetRecentActivities",
+    "RelativePath": "api/dashboard/recent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.DashboardController",
+    "Method": "GetRoiSignals",
+    "RelativePath": "api/dashboard/roi-signals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.DashboardController",
+    "Method": "GetDashboardStats",
+    "RelativePath": "api/dashboard/stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.HcpController",
+    "Method": "GetAllHCPs",
+    "RelativePath": "api/hcp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.HcpController",
+    "Method": "CreateHCP",
+    "RelativePath": "api/hcp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hcp",
+        "Type": "HealthCareApp.Models.Hcp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.HcpController",
+    "Method": "GetHCPById",
+    "RelativePath": "api/hcp/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.HcpController",
+    "Method": "UpdateHCP",
+    "RelativePath": "api/hcp/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hcp",
+        "Type": "HealthCareApp.Models.Hcp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.HcpController",
+    "Method": "UpdateHcpEngagement",
+    "RelativePath": "api/hcp/{id}/engagement",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "engagementDto",
+        "Type": "HealthCareApp.DTOs.Hcp.HcpUpdateEngagementDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.HcpController",
+    "Method": "GetHcpAnalyticsSummary",
+    "RelativePath": "api/hcp/analytics/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.HcpController",
+    "Method": "GetLeastEngagedHCPs",
+    "RelativePath": "api/hcp/engagement/least",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.HcpController",
+    "Method": "GetTopEngagedHCPs",
+    "RelativePath": "api/hcp/engagement/top",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.MedicalContentController",
+    "Method": "GetAllMedicalContent",
+    "RelativePath": "api/medical",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.MedicalContentController",
+    "Method": "CreateMedicalContent",
+    "RelativePath": "api/medical",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentDto",
+        "Type": "HealthCareApp.DTOs.MedicalContent.CreateMedicalContentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.PatientController",
+    "Method": "GetAllPatientEngagements",
+    "RelativePath": "api/patients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.PatientController",
+    "Method": "CreatePatientEngagement",
+    "RelativePath": "api/patients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "engagement",
+        "Type": "HealthCareApp.Models.PatientEngagement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.PatientController",
+    "Method": "GetPatientAnalytics",
+    "RelativePath": "api/patients/analytics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthCareApp.Controllers.PatientController",
+    "Method": "GetPatientEngagementAnalytics",
+    "RelativePath": "api/patients/engagement",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

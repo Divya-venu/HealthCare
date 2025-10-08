@@ -1,0 +1,931 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\controllers\\medicalcontentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\controllers\\medicalcontentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\medicalcontent\\createmedicalcontentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\medicalcontent\\createmedicalcontentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\utilities\\jwtutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\utilities\\jwtutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\utilities\\ijwtutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\utilities\\ijwtutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\interfaces\\imedicalcontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\interfaces\\imedicalcontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\interfaces\\ihcpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\interfaces\\ihcpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\interfaces\\idashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\interfaces\\icampaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\interfaces\\icampaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\implementations\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\implementations\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\implementations\\medicalcontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\implementations\\medicalcontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\implementations\\hcpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\implementations\\hcpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\implementations\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\implementations\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\implementations\\campaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\implementations\\campaignservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\interface\\ipatientengagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\interface\\ipatientengagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\interface\\imedicalcontentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\interface\\imedicalcontentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\interface\\ihcprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\interface\\ihcprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\interface\\icampaignrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\interface\\icampaignrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\interface\\iauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\interface\\iauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\implementation\\patientengagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\implementation\\patientengagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\implementation\\medicalcontentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\implementation\\medicalcontentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\implementation\\hcprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\implementation\\hcprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\implementation\\campaignrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\implementation\\campaignrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\repositories\\implementation\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\repositories\\implementation\\auditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\models\\patientengagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\models\\patientengagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\models\\medicalcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\models\\medicalcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\models\\hcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\models\\hcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\models\\campaign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\patientengagement\\patientengagementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\patientengagement\\patientengagementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\hcp\\hcpupdateengagementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\hcp\\hcpupdateengagementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\campaign\\createcampaigndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\campaign\\createcampaigndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\campaign\\campaigndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\campaign\\campaigndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\controllers\\hcpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\controllers\\hcpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\controllers\\campaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\controllers\\campaigncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\healthcareapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\healthcareapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|e:\\dotnetapplications\\healthcareapp\\healthcareapp\\healthcareapp\\dtos\\medicalcontent\\medicalcontentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F48194-DBD1-4F06-951C-14AC69D47CA4}|HealthCareApp\\HealthCareApp.csproj|solutionrelative:healthcareapp\\dtos\\medicalcontent\\medicalcontentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MedicalContentController.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\MedicalContentController.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Controllers\\MedicalContentController.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\MedicalContentController.cs",
+              "RelativeToolTip": "HealthCareApp\\Controllers\\MedicalContentController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:05:38.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Program.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Program.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Program.cs",
+              "RelativeToolTip": "HealthCareApp\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwHAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:09:11.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateMedicalContentDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\MedicalContent\\CreateMedicalContentDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\MedicalContent\\CreateMedicalContentDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\MedicalContent\\CreateMedicalContentDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\MedicalContent\\CreateMedicalContentDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T05:11:33.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\appsettings.json",
+              "RelativeDocumentMoniker": "HealthCareApp\\appsettings.json",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\appsettings.json",
+              "RelativeToolTip": "HealthCareApp\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T15:07:43.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "HealthCareApp\\appsettings.Development.json",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\appsettings.Development.json",
+              "RelativeToolTip": "HealthCareApp\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-08T07:08:24.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtUtility.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Utilities\\JwtUtility.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Utilities\\JwtUtility.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Utilities\\JwtUtility.cs",
+              "RelativeToolTip": "HealthCareApp\\Utilities\\JwtUtility.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:45:05.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IJwtUtility.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Utilities\\IJwtUtility.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Utilities\\IJwtUtility.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Utilities\\IJwtUtility.cs",
+              "RelativeToolTip": "HealthCareApp\\Utilities\\IJwtUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:44:06.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Interfaces\\IPatientService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:15:18.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMedicalContentService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IMedicalContentService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Interfaces\\IMedicalContentService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IMedicalContentService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Interfaces\\IMedicalContentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:14:58.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IHcpService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IHcpService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Interfaces\\IHcpService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IHcpService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Interfaces\\IHcpService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:14:33.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:21:16.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Interfaces\\IDashboardService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IDashboardService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Interfaces\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:13:57.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICampaignService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\ICampaignService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Interfaces\\ICampaignService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\ICampaignService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Interfaces\\ICampaignService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:47:28.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:20:08.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\PatientService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Implementations\\PatientService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\PatientService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Implementations\\PatientService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv0oAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:01:23.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MedicalContentService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\MedicalContentService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Implementations\\MedicalContentService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\MedicalContentService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Implementations\\MedicalContentService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:01:03.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HcpService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\HcpService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Implementations\\HcpService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\HcpService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Implementations\\HcpService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAwwG4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:00:45.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Implementations\\EmailService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:21:37.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\DashboardService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Implementations\\DashboardService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\DashboardService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Implementations\\DashboardService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAADwv2gAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:57:58.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CampaignService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\CampaignService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Implementations\\CampaignService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\CampaignService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Implementations\\CampaignService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:57:38.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "HealthCareApp\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvzwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:20:46.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:39:18.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPatientEngagementRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IPatientEngagementRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Interface\\IPatientEngagementRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IPatientEngagementRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Interface\\IPatientEngagementRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:39:02.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IMedicalContentRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IMedicalContentRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Interface\\IMedicalContentRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IMedicalContentRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Interface\\IMedicalContentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:38:38.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IHcpRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IHcpRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Interface\\IHcpRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IHcpRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Interface\\IHcpRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:38:03.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICampaignRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\ICampaignRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Interface\\ICampaignRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\ICampaignRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Interface\\ICampaignRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:37:47.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IAuditLogRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IAuditLogRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Interface\\IAuditLogRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Interface\\IAuditLogRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Interface\\IAuditLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:37:27.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Implementation\\UserRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Implementation\\UserRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:42:55.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PatientEngagementRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\PatientEngagementRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Implementation\\PatientEngagementRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\PatientEngagementRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Implementation\\PatientEngagementRepository.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwvz0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:42:34.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MedicalContentRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\MedicalContentRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Implementation\\MedicalContentRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\MedicalContentRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Implementation\\MedicalContentRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:42:18.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HcpRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\HcpRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Implementation\\HcpRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\HcpRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Implementation\\HcpRepository.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAswF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:41:57.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CampaignRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\CampaignRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Implementation\\CampaignRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\CampaignRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Implementation\\CampaignRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:41:39.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuditLogRepository.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\AuditLogRepository.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Repositories\\Implementation\\AuditLogRepository.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Repositories\\Implementation\\AuditLogRepository.cs",
+              "RelativeToolTip": "HealthCareApp\\Repositories\\Implementation\\AuditLogRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:41:19.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Models\\User.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\User.cs",
+              "RelativeToolTip": "HealthCareApp\\Models\\User.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:13:32.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PatientEngagement.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\PatientEngagement.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Models\\PatientEngagement.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\PatientEngagement.cs",
+              "RelativeToolTip": "HealthCareApp\\Models\\PatientEngagement.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:13:26.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Hcp.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\Hcp.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Models\\Hcp.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\Hcp.cs",
+              "RelativeToolTip": "HealthCareApp\\Models\\Hcp.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:13:16.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Models\\AuditLog.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\AuditLog.cs",
+              "RelativeToolTip": "HealthCareApp\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:13:05.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Campaign.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\Campaign.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Models\\Campaign.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\Campaign.cs",
+              "RelativeToolTip": "HealthCareApp\\Models\\Campaign.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:56:31.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MedicalContent.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\MedicalContent.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Models\\MedicalContent.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Models\\MedicalContent.cs",
+              "RelativeToolTip": "HealthCareApp\\Models\\MedicalContent.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T05:09:21.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\ResponseDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\ResponseDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\ResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:15:47.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PatientEngagementDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\PatientEngagement\\PatientEngagementDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\PatientEngagement\\PatientEngagementDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\PatientEngagement\\PatientEngagementDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\PatientEngagement\\PatientEngagementDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:35:25.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "HcpUpdateEngagementDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Hcp\\HcpUpdateEngagementDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\Hcp\\HcpUpdateEngagementDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Hcp\\HcpUpdateEngagementDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\Hcp\\HcpUpdateEngagementDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:33:55.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CreateCampaignDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Campaign\\CreateCampaignDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\Campaign\\CreateCampaignDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Campaign\\CreateCampaignDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\Campaign\\CreateCampaignDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA3wCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:58:36.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CampaignDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Campaign\\CampaignDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\Campaign\\CampaignDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Campaign\\CampaignDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\Campaign\\CampaignDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:34:29.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:15:19.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:14:59.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Controllers\\PatientController.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "HealthCareApp\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv08AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:05:54.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HcpController.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\HcpController.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Controllers\\HcpController.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\HcpController.cs",
+              "RelativeToolTip": "HealthCareApp\\Controllers\\HcpController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAADwv5QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:05:18.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Controllers\\DashboardController.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "HealthCareApp\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAADwv04AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:05:00.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CampaignController.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\CampaignController.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Controllers\\CampaignController.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\CampaignController.cs",
+              "RelativeToolTip": "HealthCareApp\\Controllers\\CampaignController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T15:04:43.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HealthCareApp\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv1sAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:23:08.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "HealthCareApp.csproj",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\HealthCareApp.csproj",
+              "RelativeDocumentMoniker": "HealthCareApp\\HealthCareApp.csproj",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\HealthCareApp.csproj",
+              "RelativeToolTip": "HealthCareApp\\HealthCareApp.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-07T12:01:26.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MedicalContentDto.cs",
+              "DocumentMoniker": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\MedicalContent\\MedicalContentDto.cs",
+              "RelativeDocumentMoniker": "HealthCareApp\\DTOs\\MedicalContent\\MedicalContentDto.cs",
+              "ToolTip": "E:\\DotNetApplications\\HealthCareApp\\HealthCareApp\\HealthCareApp\\DTOs\\MedicalContent\\MedicalContentDto.cs",
+              "RelativeToolTip": "HealthCareApp\\DTOs\\MedicalContent\\MedicalContentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:34:56.58Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
